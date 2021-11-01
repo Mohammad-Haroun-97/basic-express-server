@@ -17,7 +17,7 @@ const app=express();
 
 
 
-//localhost:3000/person?name=Tamara
+//localhost:3030/person?name=haroun
 app.get('/person', validator, (req, res) => {
   res.json({
     name: req.query.name,
